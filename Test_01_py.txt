@@ -14,6 +14,10 @@ img_1 = np.array([[0,0,0,0,0,0,0,0,0,0,0],
 plt.imshow(img_1)
 plt.show()
 
+
+import numpy as np
+import matplotlib.pyplot as pl
+
 img_int_A = np.array([[255, 0, 200], [0, 0, 100], [0, 180, 55]],np.uint8)
 img_int_B = np.array([[0, 0, 245], [134, 65, 100], [0, 23, 0]],np.uint8)
 f = pl.figure()
