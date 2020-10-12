@@ -14,7 +14,7 @@ img_1 = np.array([[0,0,0,0,0,0,0,0,0,0,0],
 plt.imshow(img_1)
 plt.show()
 
-
+import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as pl
 
