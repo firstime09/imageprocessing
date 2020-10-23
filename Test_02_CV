@@ -14,3 +14,9 @@ plt.imshow(img_ori)
 f.add_subplot(1,2, 2)
 plt.title("Image gray")
 plt.imshow(img_gray)
+
+
+"""Cara mengubah citra gray menjadi binary image"""
+ambang,  img_biner = cv2.threshold(img_gray, 128, 255, cv2.THRESH_BINARY)
+plt.imshow(img_biner)
+plt.show()
