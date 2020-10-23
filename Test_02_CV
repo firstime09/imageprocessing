@@ -1,5 +1,4 @@
 import cv2, os
-import cv2, os
 import numpy as np
 import matplotlib.pyplot as plt
 from google.colab import drive
