@@ -48,3 +48,11 @@ plt.imshow(rb)
 f.add_subplot(2,3, 6)
 plt.title("Image RG")
 plt.imshow(rg)
+
+"""Kernel / SE dalam Morfologi Citra"""
+kernel = np.array([[1,1,1],
+                   [1,1,1],
+                   [1,1,1]], np.uint8)
+erosion = cv2.erode(img_gray, kernel, iterations = 3)
+plt.imshow(erosion)
+plt.show()
